@@ -18,7 +18,7 @@ public class Etudiant {
 	@Override
 	public String toString() {
 		return "Etudiant [nom=" + nom + ", prenom=" + prenom + ", email=" + email + ", postale=" + postale + ", date="
-				+ date + "]";
+				+ date + "]\n";
 	}
 	
 	public void setNom(String nom) {
